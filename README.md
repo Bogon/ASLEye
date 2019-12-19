@@ -1,5 +1,7 @@
 # ASLEye
 
+[![Swift 4.0+](https://img.shields.io/badge/Swift-3.0%2B-orange.svg)](https://github.com/zixun/AssistiveButton)
+
 [![Version](https://img.shields.io/cocoapods/v/Log4G.svg?style=flat)](http://cocoapods.org/pods/ASLEye)
 [![License](https://img.shields.io/cocoapods/l/Log4G.svg?style=flat)](http://cocoapods.org/pods/ASLEye)
 [![Platform](https://img.shields.io/cocoapods/p/Log4G.svg?style=flat)](http://cocoapods.org/pods/ASLEye)
@@ -45,15 +47,23 @@ ASLEye is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ASLEye"
+pod 'ASLEye'
 ```
 
 ### Carthage
 Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
 
 ``` 
-github "zixun/ASLEye"
+github "Bogon/ASLEye"
 ```
+
+## 维护者
+
+name: Bogon
+
+email: zhanqgixcu@gmail.com
+
+github: [Bogon](https://github.com/Bogon)
 
 ## Author
 

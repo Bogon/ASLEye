@@ -1,4 +1,4 @@
 
-pod spec lint
+pod spec lint --allow-warnings
 
 
