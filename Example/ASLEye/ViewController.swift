@@ -29,7 +29,7 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: ASLEyeDelegate {
-    func aslEye(aslEye:ASLEye,catchLogs logs:[String]) {
+    public func aslEye(_ aslEye:ASLEye,catchLogs logs:[String]) {
         print(logs)
     }
 }

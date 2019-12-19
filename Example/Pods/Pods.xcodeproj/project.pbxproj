@@ -7,281 +7,277 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		316223271EF7797DDBEA8A5782F6E65C /* ASLEye-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A388BA49E076BF0B1F7973F0CF604 /* ASLEye-dummy.m */; };
-		4FAAF0B3E35D8F150E5A49800F73838E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7F0E0E8D5BA1BF2DFA9DEAB9860949DB /* Pods-ASLEye_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A80D910DC82F713AA783739F54038EB /* Pods-ASLEye_Example-dummy.m */; };
-		89D7A37F2AFC73FB55118FB53B1E58E0 /* Pods-ASLEye_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2AA844165922521404E145B9B4DBCD /* Pods-ASLEye_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		972824C7FAE5C53783C42E540DC8AB60 /* ASLEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4FAC4EEA2A9A58C4AF9B862A0251E5 /* ASLEye.swift */; };
-		992F2C9CEF13A806A1DC41C147778155 /* Pods-ASLEye_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B98BEE020E0A293B5D1DE91A65507E /* Pods-ASLEye_Tests-dummy.m */; };
-		E0F5C6865FF6E1F29F5554D6131605AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E9FFFBD2488998F70B351673F146191C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F6971A5E335FA81CA4A9DFC79AA3DB55 /* Pods-ASLEye_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF303C4E33DEA49C63F6D2DF9BFD908 /* Pods-ASLEye_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6E474BAF9797DD8619BC604D4E318F4 /* ASLEye-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5796E90750A399F82BE419522470539F /* ASLEye-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0639753B0789F8AFF653BA2B5A327669 /* Pods-ASLEye_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 440868A906C1462CE903FEBCF14B2B6F /* Pods-ASLEye_Tests-dummy.m */; };
+		24B7D0EDB94696AE828719801DD82F0C /* ASLEye-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8187C3848E014B96E14D092F89F06CF /* ASLEye-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24F39A801847B72EEFAF25D8BB0364C4 /* ASLEye-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1591CBD7C14D46EDBE3138B04CCEF86F /* ASLEye-dummy.m */; };
+		3AF5569B9CC641DB1A464290863EE270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4A400589573A1183BB453FC3BF40AA6C /* Pods-ASLEye_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2D6F7EE7575E1B7E3A9E0FCBAFC827 /* Pods-ASLEye_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75CFEDB899F96F03159AFB58DB5DE45C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		941729778F30FA8E15D607AE00C564A0 /* Pods-ASLEye_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C0513A22D8DA79D35377E32D882D0A /* Pods-ASLEye_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2AF3C224D216D1263976F466CCF83E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D766456A406FD6B5E99A344216A63A2B /* ASLEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B71CD7DEDDBA5DC9F0465218BF66A3 /* ASLEye.swift */; };
+		F1567D5C084F27397D5E1E277926DDA9 /* Pods-ASLEye_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 662C7BBBB4001C51589A1F82053333FC /* Pods-ASLEye_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		766F1DDA4AAA86B0316AA6479ACD19FE /* PBXContainerItemProxy */ = {
+		72983A53BB07899DA5EF08D32DBEFAB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 86F247CED551E6F5743C7709C45ABC7D;
-			remoteInfo = "Pods-ASLEye_Example";
-		};
-		FA4DF7301BD2262F8486AC7AC12462EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BBFC17EEF6DE18135CC91A7707C2476;
+			remoteGlobalIDString = C6574E498A2D31FFB7EB1C7BAAEB174D;
 			remoteInfo = ASLEye;
+		};
+		B7C4D73F4BB03B9D6BBB7AC3DB7CC77A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334ABC32A5ACA820914612F3F739743C;
+			remoteInfo = "Pods-ASLEye_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		114A388BA49E076BF0B1F7973F0CF604 /* ASLEye-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASLEye-dummy.m"; sourceTree = "<group>"; };
-		126C35C176F7C235C01D7F13B2C9B22F /* Pods-ASLEye_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASLEye_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		218F44907C69D031A4A3DD88EB0A5B9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4035BD5418E4E866270C4D34227CB2C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40CBF9CAF7819EEED88C793AEDC2DE7F /* Pods-ASLEye_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLEye_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4207F9CD900FFD508A9319C02BD6FA7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		45504CBCCD3DA46744085DB12DD23A07 /* Pods-ASLEye_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLEye_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4FAB2849A9C317C09F861448D9647A3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5796E90750A399F82BE419522470539F /* ASLEye-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLEye-umbrella.h"; sourceTree = "<group>"; };
-		642767752E89947A5DE22E94B0435482 /* ASLEye.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASLEye.modulemap; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		71082FE5C60630143F4C0DBED2CE446F /* Pods-ASLEye_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASLEye_Example-resources.sh"; sourceTree = "<group>"; };
-		7378A05FD5B1116E664053DF66D5EECD /* Pods-ASLEye_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLEye_Example.release.xcconfig"; sourceTree = "<group>"; };
-		73B98BEE020E0A293B5D1DE91A65507E /* Pods-ASLEye_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASLEye_Tests-dummy.m"; sourceTree = "<group>"; };
-		7A4FAC4EEA2A9A58C4AF9B862A0251E5 /* ASLEye.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLEye.swift; path = ASLEye/Classes/ASLEye.swift; sourceTree = "<group>"; };
-		7E2AA844165922521404E145B9B4DBCD /* Pods-ASLEye_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASLEye_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8379C77C1D91306A9C7336A540228F3C /* Pods_ASLEye_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASLEye_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8917995B9D75E10E936508EA07916369 /* Pods-ASLEye_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASLEye_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8A80D910DC82F713AA783739F54038EB /* Pods-ASLEye_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASLEye_Example-dummy.m"; sourceTree = "<group>"; };
-		911D5A720CC4080AA132E43FD8766152 /* Pods-ASLEye_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLEye_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		971E495D1623628D6D28D6673EFEC6D4 /* Pods-ASLEye_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASLEye_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D861C67AC7E34DB0575AD3DE45D6EE6 /* Pods-ASLEye_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASLEye_Example.modulemap"; sourceTree = "<group>"; };
-		A5BF23428F68DDD16DB75010ED489E7C /* Pods-ASLEye_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASLEye_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B34D44CB1477546AE0AF1A7B2B480DDD /* ASLEye-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLEye-prefix.pch"; sourceTree = "<group>"; };
-		B6018C11E1E293CC5FF079A357CEA138 /* Pods_ASLEye_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASLEye_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8C575E795932245A08BAA3C8C8C3362 /* ASLEye.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ASLEye.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0D7ECDF903E59001E5BCF0B1BD71F8C /* ASLEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASLEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB0048C4FBACA6A7B38BC6E4324C5395 /* Pods-ASLEye_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASLEye_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D59811AD673AABAE2BC6A06605A35555 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D634E9FFD1B3655D49CD67D14AB3165A /* Pods-ASLEye_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASLEye_Tests.modulemap"; sourceTree = "<group>"; };
-		E171493FF36A6AF8CC2574CB3774C694 /* ASLEye.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLEye.xcconfig; sourceTree = "<group>"; };
-		E3E52E2206CDBF6976EEB6904D0D765E /* Pods-ASLEye_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASLEye_Tests-resources.sh"; sourceTree = "<group>"; };
-		E54AA2DA416FCEB065B5F9C977729DB0 /* Pods-ASLEye_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASLEye_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EBF303C4E33DEA49C63F6D2DF9BFD908 /* Pods-ASLEye_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASLEye_Example-umbrella.h"; sourceTree = "<group>"; };
+		0AB6596A970121A3DB0B8737DEB6925F /* ASLEye.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASLEye.modulemap; sourceTree = "<group>"; };
+		0F3E329183CD8880282637AB88088BE8 /* Pods-ASLEye_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASLEye_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1591CBD7C14D46EDBE3138B04CCEF86F /* ASLEye-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASLEye-dummy.m"; sourceTree = "<group>"; };
+		1FEF3A0AA42A22A633DDABDCBEAD0DF2 /* ASLEye.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLEye.xcconfig; sourceTree = "<group>"; };
+		22FD42764FD8899B19B4E71487357D95 /* Pods_ASLEye_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASLEye_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BB4E3711566EC4B98EDAAC4F34DC1B /* ASLEye.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ASLEye.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2907A6AAECABC81C841086857503C11D /* Pods-ASLEye_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASLEye_Tests.modulemap"; sourceTree = "<group>"; };
+		3123738502F3E7F4A0858F31AD1EED7E /* Pods-ASLEye_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASLEye_Tests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		352A1EF13B8A07F34AEF04F910DF2FF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3EC435785FE2ACDC270EFA8123C30A23 /* Pods-ASLEye_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASLEye_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		440868A906C1462CE903FEBCF14B2B6F /* Pods-ASLEye_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASLEye_Tests-dummy.m"; sourceTree = "<group>"; };
+		5AA1B002FCA9E81165F1D197D651C3C6 /* Pods-ASLEye_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLEye_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		662C7BBBB4001C51589A1F82053333FC /* Pods-ASLEye_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASLEye_Example-dummy.m"; sourceTree = "<group>"; };
+		71C0513A22D8DA79D35377E32D882D0A /* Pods-ASLEye_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASLEye_Tests-umbrella.h"; sourceTree = "<group>"; };
+		786F2B4FA39DA1C8DD63369AD96B6854 /* Pods-ASLEye_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLEye_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		89B71CD7DEDDBA5DC9F0465218BF66A3 /* ASLEye.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLEye.swift; path = ASLEye/Classes/ASLEye.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A47B49A31974C96E2933B1DDA5D2A3CB /* Pods-ASLEye_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASLEye_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6886E7194E5C8BC998B559A813E4412 /* Pods-ASLEye_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASLEye_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A78A789C2537E57A072FA03058AB2B3C /* ASLEye-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASLEye-Info.plist"; sourceTree = "<group>"; };
+		B428AD7A5F4E4507D2AFB55AA120BE3A /* Pods-ASLEye_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASLEye_Example.modulemap"; sourceTree = "<group>"; };
+		B85C97937C6128095F344DD7261641F2 /* Pods_ASLEye_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASLEye_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37E4BEAFBD5401EA37629218309EFE6 /* Pods-ASLEye_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLEye_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C5DA2076076A87D5264A6848B099D18F /* Pods-ASLEye_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLEye_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC18EA220FE6A9F7EBC5C633D2F6F3E6 /* ASLEye-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLEye-prefix.pch"; sourceTree = "<group>"; };
+		CE2D6F7EE7575E1B7E3A9E0FCBAFC827 /* Pods-ASLEye_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASLEye_Example-umbrella.h"; sourceTree = "<group>"; };
+		CF4F7421FEC2AAB1A1618A91C04AD067 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E4C9382012BF27D11D81A67EF3072CF5 /* Pods-ASLEye_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASLEye_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E8187C3848E014B96E14D092F89F06CF /* ASLEye-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLEye-umbrella.h"; sourceTree = "<group>"; };
+		EBB94102E7A93AFF4BE04E8CEDF4F0D3 /* ASLEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASLEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF078AC9867E412057FD8C205C7223A9 /* Pods-ASLEye_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASLEye_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6C3D8688AFAC412408D5E57880E6DF94 /* Frameworks */ = {
+		7E709D141C5C09E8CCF4E640C8534EFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9FFFBD2488998F70B351673F146191C /* Foundation.framework in Frameworks */,
+				C2AF3C224D216D1263976F466CCF83E3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D9421F247353958CD9C9B5A47526BEE /* Frameworks */ = {
+		8B48C8EC56C198A55455A420D47E8566 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0F5C6865FF6E1F29F5554D6131605AF /* Foundation.framework in Frameworks */,
+				75CFEDB899F96F03159AFB58DB5DE45C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBE738A2C141522FC8B6CBEC6BED33B5 /* Frameworks */ = {
+		F48CDC4B81023C857EA6F712EE4A0EAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FAAF0B3E35D8F150E5A49800F73838E /* Foundation.framework in Frameworks */,
+				3AF5569B9CC641DB1A464290863EE270 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BB6E5FB74DECD4FD21A1A757CD34476 /* Pods-ASLEye_Example */ = {
+		18835EEE2B489632D2620BAA8AE2F1CF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4035BD5418E4E866270C4D34227CB2C3 /* Info.plist */,
-				9D861C67AC7E34DB0575AD3DE45D6EE6 /* Pods-ASLEye_Example.modulemap */,
-				A5BF23428F68DDD16DB75010ED489E7C /* Pods-ASLEye_Example-acknowledgements.markdown */,
-				8917995B9D75E10E936508EA07916369 /* Pods-ASLEye_Example-acknowledgements.plist */,
-				8A80D910DC82F713AA783739F54038EB /* Pods-ASLEye_Example-dummy.m */,
-				CB0048C4FBACA6A7B38BC6E4324C5395 /* Pods-ASLEye_Example-frameworks.sh */,
-				71082FE5C60630143F4C0DBED2CE446F /* Pods-ASLEye_Example-resources.sh */,
-				EBF303C4E33DEA49C63F6D2DF9BFD908 /* Pods-ASLEye_Example-umbrella.h */,
-				911D5A720CC4080AA132E43FD8766152 /* Pods-ASLEye_Example.debug.xcconfig */,
-				7378A05FD5B1116E664053DF66D5EECD /* Pods-ASLEye_Example.release.xcconfig */,
-			);
-			name = "Pods-ASLEye_Example";
-			path = "Target Support Files/Pods-ASLEye_Example";
-			sourceTree = "<group>";
-		};
-		3810D1D3DE9561BE71533BA0224149AE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0BB6E5FB74DECD4FD21A1A757CD34476 /* Pods-ASLEye_Example */,
-				3CEE68455624923B1EB4EB20050E49FC /* Pods-ASLEye_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3861814D61EC3E72E64F726602366401 /* ASLEye */ = {
-			isa = PBXGroup;
-			children = (
-				7A4FAC4EEA2A9A58C4AF9B862A0251E5 /* ASLEye.swift */,
-				9C773B5ABE8C781354F9633A35B07A45 /* Pod */,
-				F32DB3CC3915A60FA45B6BE797F549F1 /* Support Files */,
-			);
-			name = ASLEye;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3CEE68455624923B1EB4EB20050E49FC /* Pods-ASLEye_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				218F44907C69D031A4A3DD88EB0A5B9F /* Info.plist */,
-				D634E9FFD1B3655D49CD67D14AB3165A /* Pods-ASLEye_Tests.modulemap */,
-				971E495D1623628D6D28D6673EFEC6D4 /* Pods-ASLEye_Tests-acknowledgements.markdown */,
-				126C35C176F7C235C01D7F13B2C9B22F /* Pods-ASLEye_Tests-acknowledgements.plist */,
-				73B98BEE020E0A293B5D1DE91A65507E /* Pods-ASLEye_Tests-dummy.m */,
-				E54AA2DA416FCEB065B5F9C977729DB0 /* Pods-ASLEye_Tests-frameworks.sh */,
-				E3E52E2206CDBF6976EEB6904D0D765E /* Pods-ASLEye_Tests-resources.sh */,
-				7E2AA844165922521404E145B9B4DBCD /* Pods-ASLEye_Tests-umbrella.h */,
-				45504CBCCD3DA46744085DB12DD23A07 /* Pods-ASLEye_Tests.debug.xcconfig */,
-				40CBF9CAF7819EEED88C793AEDC2DE7F /* Pods-ASLEye_Tests.release.xcconfig */,
-			);
-			name = "Pods-ASLEye_Tests";
-			path = "Target Support Files/Pods-ASLEye_Tests";
-			sourceTree = "<group>";
-		};
-		4122612E65454A71D93EE2CF3745B34A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C0D7ECDF903E59001E5BCF0B1BD71F8C /* ASLEye.framework */,
-				B6018C11E1E293CC5FF079A357CEA138 /* Pods_ASLEye_Example.framework */,
-				8379C77C1D91306A9C7336A540228F3C /* Pods_ASLEye_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		539F26077D4AF26DBA6C730ED7C91CAC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3861814D61EC3E72E64F726602366401 /* ASLEye */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				539F26077D4AF26DBA6C730ED7C91CAC /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4122612E65454A71D93EE2CF3745B34A /* Products */,
-				3810D1D3DE9561BE71533BA0224149AE /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9C773B5ABE8C781354F9633A35B07A45 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B8C575E795932245A08BAA3C8C8C3362 /* ASLEye.podspec */,
-				4207F9CD900FFD508A9319C02BD6FA7A /* LICENSE */,
-				D59811AD673AABAE2BC6A06605A35555 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F32DB3CC3915A60FA45B6BE797F549F1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				642767752E89947A5DE22E94B0435482 /* ASLEye.modulemap */,
-				E171493FF36A6AF8CC2574CB3774C694 /* ASLEye.xcconfig */,
-				114A388BA49E076BF0B1F7973F0CF604 /* ASLEye-dummy.m */,
-				B34D44CB1477546AE0AF1A7B2B480DDD /* ASLEye-prefix.pch */,
-				5796E90750A399F82BE419522470539F /* ASLEye-umbrella.h */,
-				4FAB2849A9C317C09F861448D9647A3E /* Info.plist */,
+				0AB6596A970121A3DB0B8737DEB6925F /* ASLEye.modulemap */,
+				1FEF3A0AA42A22A633DDABDCBEAD0DF2 /* ASLEye.xcconfig */,
+				1591CBD7C14D46EDBE3138B04CCEF86F /* ASLEye-dummy.m */,
+				A78A789C2537E57A072FA03058AB2B3C /* ASLEye-Info.plist */,
+				CC18EA220FE6A9F7EBC5C633D2F6F3E6 /* ASLEye-prefix.pch */,
+				E8187C3848E014B96E14D092F89F06CF /* ASLEye-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ASLEye";
 			sourceTree = "<group>";
 		};
+		3D65F32D3718E4A5183EE1263501C37C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60EFB5680B21611B10EAFDAF476FB26E /* ASLEye */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		40E0C534696D0095C9700876E6752747 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				25BB4E3711566EC4B98EDAAC4F34DC1B /* ASLEye.podspec */,
+				CF4F7421FEC2AAB1A1618A91C04AD067 /* LICENSE */,
+				352A1EF13B8A07F34AEF04F910DF2FF9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		46A564AB428CE939059C0D1AD13168FD /* Pods-ASLEye_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B428AD7A5F4E4507D2AFB55AA120BE3A /* Pods-ASLEye_Example.modulemap */,
+				A6886E7194E5C8BC998B559A813E4412 /* Pods-ASLEye_Example-acknowledgements.markdown */,
+				3EC435785FE2ACDC270EFA8123C30A23 /* Pods-ASLEye_Example-acknowledgements.plist */,
+				662C7BBBB4001C51589A1F82053333FC /* Pods-ASLEye_Example-dummy.m */,
+				E4C9382012BF27D11D81A67EF3072CF5 /* Pods-ASLEye_Example-frameworks.sh */,
+				EF078AC9867E412057FD8C205C7223A9 /* Pods-ASLEye_Example-Info.plist */,
+				CE2D6F7EE7575E1B7E3A9E0FCBAFC827 /* Pods-ASLEye_Example-umbrella.h */,
+				786F2B4FA39DA1C8DD63369AD96B6854 /* Pods-ASLEye_Example.debug.xcconfig */,
+				C37E4BEAFBD5401EA37629218309EFE6 /* Pods-ASLEye_Example.release.xcconfig */,
+			);
+			name = "Pods-ASLEye_Example";
+			path = "Target Support Files/Pods-ASLEye_Example";
+			sourceTree = "<group>";
+		};
+		590FEFA38F29AF14F763766F4DAD6321 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46A564AB428CE939059C0D1AD13168FD /* Pods-ASLEye_Example */,
+				5F74CB355F3D259E1507B03CF8067DD4 /* Pods-ASLEye_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F74CB355F3D259E1507B03CF8067DD4 /* Pods-ASLEye_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2907A6AAECABC81C841086857503C11D /* Pods-ASLEye_Tests.modulemap */,
+				0F3E329183CD8880282637AB88088BE8 /* Pods-ASLEye_Tests-acknowledgements.markdown */,
+				A47B49A31974C96E2933B1DDA5D2A3CB /* Pods-ASLEye_Tests-acknowledgements.plist */,
+				440868A906C1462CE903FEBCF14B2B6F /* Pods-ASLEye_Tests-dummy.m */,
+				3123738502F3E7F4A0858F31AD1EED7E /* Pods-ASLEye_Tests-Info.plist */,
+				71C0513A22D8DA79D35377E32D882D0A /* Pods-ASLEye_Tests-umbrella.h */,
+				C5DA2076076A87D5264A6848B099D18F /* Pods-ASLEye_Tests.debug.xcconfig */,
+				5AA1B002FCA9E81165F1D197D651C3C6 /* Pods-ASLEye_Tests.release.xcconfig */,
+			);
+			name = "Pods-ASLEye_Tests";
+			path = "Target Support Files/Pods-ASLEye_Tests";
+			sourceTree = "<group>";
+		};
+		60EFB5680B21611B10EAFDAF476FB26E /* ASLEye */ = {
+			isa = PBXGroup;
+			children = (
+				89B71CD7DEDDBA5DC9F0465218BF66A3 /* ASLEye.swift */,
+				40E0C534696D0095C9700876E6752747 /* Pod */,
+				18835EEE2B489632D2620BAA8AE2F1CF /* Support Files */,
+			);
+			name = ASLEye;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9455E0D272458734CDB217EF6247BF6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB94102E7A93AFF4BE04E8CEDF4F0D3 /* ASLEye.framework */,
+				22FD42764FD8899B19B4E71487357D95 /* Pods_ASLEye_Example.framework */,
+				B85C97937C6128095F344DD7261641F2 /* Pods_ASLEye_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3D65F32D3718E4A5183EE1263501C37C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9455E0D272458734CDB217EF6247BF6D /* Products */,
+				590FEFA38F29AF14F763766F4DAD6321 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8003059B16D80323A68C5E0A7138C96A /* Headers */ = {
+		15D05DC7770EAA05D1E2D35214F54F32 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6971A5E335FA81CA4A9DFC79AA3DB55 /* Pods-ASLEye_Example-umbrella.h in Headers */,
+				24B7D0EDB94696AE828719801DD82F0C /* ASLEye-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5EFA86636106446B2F3C16C911B78BD /* Headers */ = {
+		9E5BA5A94426DD2172AA00C70CB478FA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6E474BAF9797DD8619BC604D4E318F4 /* ASLEye-umbrella.h in Headers */,
+				4A400589573A1183BB453FC3BF40AA6C /* Pods-ASLEye_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8825A4887EA3D19B96A2A1B40A6C8F0 /* Headers */ = {
+		E3C87A5F2E7482F53B17EC4FBCE96E8D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D7A37F2AFC73FB55118FB53B1E58E0 /* Pods-ASLEye_Tests-umbrella.h in Headers */,
+				941729778F30FA8E15D607AE00C564A0 /* Pods-ASLEye_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		464C4A501C242916B865F8503C7576E1 /* Pods-ASLEye_Tests */ = {
+		334ABC32A5ACA820914612F3F739743C /* Pods-ASLEye_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF63E7DE89464B4AD5ED01AE5DD05BE9 /* Build configuration list for PBXNativeTarget "Pods-ASLEye_Tests" */;
+			buildConfigurationList = 0CADC4EDA34D535C3327B9AA76FA9C1C /* Build configuration list for PBXNativeTarget "Pods-ASLEye_Example" */;
 			buildPhases = (
-				9F554BCF2559F7052EA918C80A2B489F /* Sources */,
-				6C3D8688AFAC412408D5E57880E6DF94 /* Frameworks */,
-				A8825A4887EA3D19B96A2A1B40A6C8F0 /* Headers */,
+				9E5BA5A94426DD2172AA00C70CB478FA /* Headers */,
+				0AE7FF28079E6B2C425BC1DF7C9B2739 /* Sources */,
+				7E709D141C5C09E8CCF4E640C8534EFD /* Frameworks */,
+				D901060CE8B7E4C713E674FDF1AFBD26 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5E751CD4944994405928DCAA3DE370E4 /* PBXTargetDependency */,
+				99BEDD251A6B27BC689D1C265E1D7378 /* PBXTargetDependency */,
 			);
-			name = "Pods-ASLEye_Tests";
-			productName = "Pods-ASLEye_Tests";
-			productReference = 8379C77C1D91306A9C7336A540228F3C /* Pods_ASLEye_Tests.framework */;
+			name = "Pods-ASLEye_Example";
+			productName = "Pods-ASLEye_Example";
+			productReference = 22FD42764FD8899B19B4E71487357D95 /* Pods_ASLEye_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7BBFC17EEF6DE18135CC91A7707C2476 /* ASLEye */ = {
+		C6574E498A2D31FFB7EB1C7BAAEB174D /* ASLEye */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F846EE0F2725B765B0C0E9DC232BD66F /* Build configuration list for PBXNativeTarget "ASLEye" */;
+			buildConfigurationList = 0A83A441105B1F5738FE3E496B1A520D /* Build configuration list for PBXNativeTarget "ASLEye" */;
 			buildPhases = (
-				B20A124DB50A19E2B3FE15638239A854 /* Sources */,
-				8D9421F247353958CD9C9B5A47526BEE /* Frameworks */,
-				A5EFA86636106446B2F3C16C911B78BD /* Headers */,
+				15D05DC7770EAA05D1E2D35214F54F32 /* Headers */,
+				04991C207C0D9855ACABB0BBFA03935C /* Sources */,
+				8B48C8EC56C198A55455A420D47E8566 /* Frameworks */,
+				4EE91F067B0AE9CBCB8F48B7C87264C3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -289,102 +285,128 @@
 			);
 			name = ASLEye;
 			productName = ASLEye;
-			productReference = C0D7ECDF903E59001E5BCF0B1BD71F8C /* ASLEye.framework */;
+			productReference = EBB94102E7A93AFF4BE04E8CEDF4F0D3 /* ASLEye.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		86F247CED551E6F5743C7709C45ABC7D /* Pods-ASLEye_Example */ = {
+		E44DAFF491EFA04196708D7E6FB31CE6 /* Pods-ASLEye_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 483687D850579B3E99857CECDA2E0B89 /* Build configuration list for PBXNativeTarget "Pods-ASLEye_Example" */;
+			buildConfigurationList = FC4936DB18548BEA75801517AB8C3F00 /* Build configuration list for PBXNativeTarget "Pods-ASLEye_Tests" */;
 			buildPhases = (
-				D333D2FB2958CEF4DFDB532242951BD5 /* Sources */,
-				DBE738A2C141522FC8B6CBEC6BED33B5 /* Frameworks */,
-				8003059B16D80323A68C5E0A7138C96A /* Headers */,
+				E3C87A5F2E7482F53B17EC4FBCE96E8D /* Headers */,
+				0F6E8177875FD551D7F6C9DD39F8FA9F /* Sources */,
+				F48CDC4B81023C857EA6F712EE4A0EAA /* Frameworks */,
+				02538ACD5C273D212E7DD40794F78291 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AAB2AF5D962B2937D9A903BDBDC67B48 /* PBXTargetDependency */,
+				267C389F846CE1583A937E261EECDE52 /* PBXTargetDependency */,
 			);
-			name = "Pods-ASLEye_Example";
-			productName = "Pods-ASLEye_Example";
-			productReference = B6018C11E1E293CC5FF079A357CEA138 /* Pods_ASLEye_Example.framework */;
+			name = "Pods-ASLEye_Tests";
+			productName = "Pods-ASLEye_Tests";
+			productReference = B85C97937C6128095F344DD7261641F2 /* Pods_ASLEye_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4122612E65454A71D93EE2CF3745B34A /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9455E0D272458734CDB217EF6247BF6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7BBFC17EEF6DE18135CC91A7707C2476 /* ASLEye */,
-				86F247CED551E6F5743C7709C45ABC7D /* Pods-ASLEye_Example */,
-				464C4A501C242916B865F8503C7576E1 /* Pods-ASLEye_Tests */,
+				C6574E498A2D31FFB7EB1C7BAAEB174D /* ASLEye */,
+				334ABC32A5ACA820914612F3F739743C /* Pods-ASLEye_Example */,
+				E44DAFF491EFA04196708D7E6FB31CE6 /* Pods-ASLEye_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		02538ACD5C273D212E7DD40794F78291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE91F067B0AE9CBCB8F48B7C87264C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D901060CE8B7E4C713E674FDF1AFBD26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		9F554BCF2559F7052EA918C80A2B489F /* Sources */ = {
+		04991C207C0D9855ACABB0BBFA03935C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				992F2C9CEF13A806A1DC41C147778155 /* Pods-ASLEye_Tests-dummy.m in Sources */,
+				24F39A801847B72EEFAF25D8BB0364C4 /* ASLEye-dummy.m in Sources */,
+				D766456A406FD6B5E99A344216A63A2B /* ASLEye.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B20A124DB50A19E2B3FE15638239A854 /* Sources */ = {
+		0AE7FF28079E6B2C425BC1DF7C9B2739 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316223271EF7797DDBEA8A5782F6E65C /* ASLEye-dummy.m in Sources */,
-				972824C7FAE5C53783C42E540DC8AB60 /* ASLEye.swift in Sources */,
+				F1567D5C084F27397D5E1E277926DDA9 /* Pods-ASLEye_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D333D2FB2958CEF4DFDB532242951BD5 /* Sources */ = {
+		0F6E8177875FD551D7F6C9DD39F8FA9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F0E0E8D5BA1BF2DFA9DEAB9860949DB /* Pods-ASLEye_Example-dummy.m in Sources */,
+				0639753B0789F8AFF653BA2B5A327669 /* Pods-ASLEye_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E751CD4944994405928DCAA3DE370E4 /* PBXTargetDependency */ = {
+		267C389F846CE1583A937E261EECDE52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ASLEye_Example";
-			target = 86F247CED551E6F5743C7709C45ABC7D /* Pods-ASLEye_Example */;
-			targetProxy = 766F1DDA4AAA86B0316AA6479ACD19FE /* PBXContainerItemProxy */;
+			target = 334ABC32A5ACA820914612F3F739743C /* Pods-ASLEye_Example */;
+			targetProxy = B7C4D73F4BB03B9D6BBB7AC3DB7CC77A /* PBXContainerItemProxy */;
 		};
-		AAB2AF5D962B2937D9A903BDBDC67B48 /* PBXTargetDependency */ = {
+		99BEDD251A6B27BC689D1C265E1D7378 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ASLEye;
-			target = 7BBFC17EEF6DE18135CC91A7707C2476 /* ASLEye */;
-			targetProxy = FA4DF7301BD2262F8486AC7AC12462EA /* PBXContainerItemProxy */;
+			target = C6574E498A2D31FFB7EB1C7BAAEB174D /* ASLEye */;
+			targetProxy = 72983A53BB07899DA5EF08D32DBEFAB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25C865F67C1D4C32054F97A1578E513B /* Release */ = {
+		5124FE361BA59AAAE4D166E0ED9C9928 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7378A05FD5B1116E664053DF66D5EECD /* Pods-ASLEye_Example.release.xcconfig */;
+			baseConfigurationReference = C37E4BEAFBD5401EA37629218309EFE6 /* Pods-ASLEye_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -396,47 +418,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ASLEye_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASLEye_Example/Pods-ASLEye_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ASLEye_Example/Pods-ASLEye_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4235BD5BDE35757E9C387DB3456698B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40CBF9CAF7819EEED88C793AEDC2DE7F /* Pods-ASLEye_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ASLEye_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ASLEye_Tests/Pods-ASLEye_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -451,74 +438,7 @@
 			};
 			name = Release;
 		};
-		6D71AEC361ACD2C919E1AD896B4C1B66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E171493FF36A6AF8CC2574CB3774C694 /* ASLEye.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASLEye/ASLEye-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASLEye/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASLEye/ASLEye.modulemap";
-				PRODUCT_MODULE_NAME = ASLEye;
-				PRODUCT_NAME = ASLEye;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9CBC1F44DD4606028C8F57B13A57A96A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 911D5A720CC4080AA132E43FD8766152 /* Pods-ASLEye_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ASLEye_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ASLEye_Example/Pods-ASLEye_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C7BE62186E17127FF3B5B27A193214BD /* Debug */ = {
+		60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -550,8 +470,97 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7959C860198852BD6EB935447BB77283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEF3A0AA42A22A633DDABDCBEAD0DF2 /* ASLEye.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASLEye/ASLEye-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASLEye/ASLEye-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASLEye/ASLEye.modulemap";
+				PRODUCT_MODULE_NAME = ASLEye;
+				PRODUCT_NAME = ASLEye;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E1F3D358966F24610AD782F313B4C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -572,76 +581,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D077E5AF30E3A09910AC48CA760A1280 /* Release */ = {
+		A387C871CC42CE440B52E8002C725167 /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D85C71DC2DD4E41BF2601AD900FCCF7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45504CBCCD3DA46744085DB12DD23A07 /* Pods-ASLEye_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5AA1B002FCA9E81165F1D197D651C3C6 /* Pods-ASLEye_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -653,7 +607,41 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ASLEye_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASLEye_Tests/Pods-ASLEye_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASLEye_Tests/Pods-ASLEye_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA874B643D592D17A424DC991492E4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DA2076076A87D5264A6848B099D18F /* Pods-ASLEye_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASLEye_Tests/Pods-ASLEye_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -672,9 +660,9 @@
 			};
 			name = Debug;
 		};
-		E1AB589C15D342537EC0C30DF8AB9346 /* Release */ = {
+		D10D67652A4B2E01DAC89F2DF1462006 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E171493FF36A6AF8CC2574CB3774C694 /* ASLEye.xcconfig */;
+			baseConfigurationReference = 1FEF3A0AA42A22A633DDABDCBEAD0DF2 /* ASLEye.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -686,7 +674,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/ASLEye/ASLEye-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASLEye/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/ASLEye/ASLEye-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -696,55 +684,86 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		FC6DFCB83E1B142008F76513BAA06FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786F2B4FA39DA1C8DD63369AD96B6854 /* Pods-ASLEye_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASLEye_Example/Pods-ASLEye_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASLEye_Example/Pods-ASLEye_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		0A83A441105B1F5738FE3E496B1A520D /* Build configuration list for PBXNativeTarget "ASLEye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7BE62186E17127FF3B5B27A193214BD /* Debug */,
-				D077E5AF30E3A09910AC48CA760A1280 /* Release */,
+				D10D67652A4B2E01DAC89F2DF1462006 /* Debug */,
+				7959C860198852BD6EB935447BB77283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		483687D850579B3E99857CECDA2E0B89 /* Build configuration list for PBXNativeTarget "Pods-ASLEye_Example" */ = {
+		0CADC4EDA34D535C3327B9AA76FA9C1C /* Build configuration list for PBXNativeTarget "Pods-ASLEye_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CBC1F44DD4606028C8F57B13A57A96A /* Debug */,
-				25C865F67C1D4C32054F97A1578E513B /* Release */,
+				FC6DFCB83E1B142008F76513BAA06FD3 /* Debug */,
+				5124FE361BA59AAAE4D166E0ED9C9928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF63E7DE89464B4AD5ED01AE5DD05BE9 /* Build configuration list for PBXNativeTarget "Pods-ASLEye_Tests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D85C71DC2DD4E41BF2601AD900FCCF7B /* Debug */,
-				4235BD5BDE35757E9C387DB3456698B2 /* Release */,
+				7E1F3D358966F24610AD782F313B4C40 /* Debug */,
+				60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F846EE0F2725B765B0C0E9DC232BD66F /* Build configuration list for PBXNativeTarget "ASLEye" */ = {
+		FC4936DB18548BEA75801517AB8C3F00 /* Build configuration list for PBXNativeTarget "Pods-ASLEye_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D71AEC361ACD2C919E1AD896B4C1B66 /* Debug */,
-				E1AB589C15D342537EC0C30DF8AB9346 /* Release */,
+				AA874B643D592D17A424DC991492E4B4 /* Debug */,
+				A387C871CC42CE440B52E8002C725167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
