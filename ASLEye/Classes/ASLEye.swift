@@ -55,7 +55,7 @@ open class ASLEye: NSObject {
         
         let query: aslmsg = self.initQuery()
         
-        let response: aslresponse? =        //asl_search(nil, query)
+        let response: aslresponse? = asl_search(nil, query)
         guard response != nil else {
             return logs
         }

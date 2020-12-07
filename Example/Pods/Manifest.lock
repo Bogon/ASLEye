@@ -1,5 +1,5 @@
 PODS:
-  - ASLEye (1.2.0)
+  - ASLEye (1.3.1)
 
 DEPENDENCIES:
   - ASLEye (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ASLEye: f0ebb668dc7f0c1d45b8ad250e6139e1c130dcc3
+  ASLEye: 66ffdd29e2f3725b0b6cd6974802fb65f4791f03
 
 PODFILE CHECKSUM: bbb483b01a60f5f0dbfdbb76800e9548ef73ae86
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.0

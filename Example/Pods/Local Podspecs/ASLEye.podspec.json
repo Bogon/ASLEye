@@ -1,23 +1,24 @@
 {
   "name": "ASLEye",
-  "version": "1.2.0",
+  "version": "1.3.1",
   "summary": "ASLEye is an ASL monitor, automatic catch the log from NSLog by asl module.",
-  "description": "ASLEye is an ASL(Apple System Log) monitor, automatic catch the log from NSLog by asl module.",
-  "homepage": "https://github.com/zixun/ASLEye",
+  "swift_versions": "4.0",
+  "description": "ASLEye is an ASL(Apple System Log) monitor, automatic catch the log from NSLog by asl module. 支持swift最低版本4.0，支持iOS最低版本10.0",
+  "homepage": "https://github.com/Bogon/ASLEye",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zixun": "chenyl.exe@gmail.com"
+    "Bogon": "zhangqixcu@gmail.com"
   },
   "source": {
-    "git": "https://github.com/zixun/ASLEye.git",
-    "tag": "1.2.0"
+    "git": "https://github.com/Bogon/ASLEye.git",
+    "tag": "1.3.1"
   },
-  "social_media_url": "https://twitter.com/zixun_",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "ASLEye/Classes/**/*"
+  "source_files": "ASLEye/Classes/**/*",
+  "swift_version": "4.0"
 }
